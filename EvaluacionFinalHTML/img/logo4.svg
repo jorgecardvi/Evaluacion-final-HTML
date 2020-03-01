@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<svg width="237" height="237" xmlns="http://www.w3.org/2000/svg" xmlns:svg="http://www.w3.org/2000/svg">
+ <!-- Created with SVG-edit - https://github.com/SVG-Edit/svgedit-->
+ <g class="layer">
+  <title>Layer 1</title>
+  <g id="svg_1">
+   <circle cx="118.500002" cy="118.499996" fill="#7f0000" id="svg_8" r="118.5" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="5"/>
+   <path d="m6.577604,87.695587l29.968207,-51.041196l51.90265,-29.47081l59.936422,0l51.90265,29.47081l29.9682,51.041196l0,58.941628l-29.9682,51.041188l-51.90265,29.470803l-59.936422,0l-51.90265,-29.470803l-29.968207,-51.041188l0,-58.941628z" fill="#e2dede" id="svg_4" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="5"/>
+   <path d="m17.253166,74.470912l58.454777,-57.918417l82.668574,0l58.454777,57.918417l0,81.910047l-58.454777,57.918425l-82.668574,0l-58.454777,-57.918425l0,-81.910047z" fill="#777676" id="svg_5" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="5"/>
+   <rect fill="#3a3939" height="118.500004" id="svg_6" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="5" width="143.093752" x="45.446876" y="52.584369"/>
+   <text fill="#ffffff" font-family="serif" font-size="24" id="svg_7" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" text-anchor="middle" transform="matrix(2.13365 0 0 2.06293 -322.975 -289.716)" x="207.034641" xml:space="preserve" y="200.12535">J.C.V.</text>
+  </g>
+ </g>
+</svg>

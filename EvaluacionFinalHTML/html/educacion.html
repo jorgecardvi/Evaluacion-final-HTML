@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,user-scalable=no">
+    <meta name="author" content="Jorge Cardenas">
+    <meta name="description" content="Evaluacion final HTML - Educacion">
+    <title>Evaluacion final HTML - Educacion</title>
+  </head>
+  <body>
+    <header>
+      <h1>
+        <svg width="150px" height="150px" viewBox="0 0 150 150">
+          <image xlink:href="../img/logo4.svg" width="150px" height="150px"></image>
+        </svg>
+        <br>
+        Hoja de Vida - Jorge Cardenas.
+      </h1>
+    </header>
+    <nav>
+      <a href="../index.html">Inicio</a> |
+      <a href="experiencia.html">Experiencia</a>
+    </nav>
+    <section>
+      <h2>Educacion</h2>
+      <article>
+      <table border="1", cellpadding="8", cellspacing="0"> <!--para modificar el borde de la tabla-->
+        <thead>
+          <tr>
+            <th>Titulo</th>
+            <th>Año</th>
+            <th>Institucion</th>
+            <th>Lugar</th>
+            <th>Modalidad</th>
+            <th>¿Culmino?</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Desarrollo de Aplicaciones</td>
+            <td>2020</td>
+            <td>NextU</td>
+            <td>Quito</td>
+            <td>Online</td>
+            <td>No</td>
+          </tr>
+          <tr>
+            <td>Ingeniero Electronico y Control</td>
+            <td>2016</td>
+            <td>Escuela Politecnica Nacional</td>
+            <td>Quito</td>
+            <td>Presencial</td>
+            <td>Si</td>
+          </tr>
+          <tr>
+            <td>Seguridad Electrica, Seguridad Radiologica</td>
+            <td>2016</td>
+            <td>Toshiba Medical Training</td>
+            <td>Quito</td>
+            <td>Online</td>
+            <td>Si</td>
+          </tr>
+        </tbody>
+      </table>
+      </article>
+
+      <article>
+        <form autocomplete="on" name="Formulario estudios">
+          <fieldset>
+            <legend><h2>Agregar estudios</h2></legend>
+            <p>
+            <label for="año">Año:</label>
+            <br>
+            <!--<input type="number" name="año" min="1990" max="2020" step="1" placeholder="2020" id="anio" required/>-->
+            <select id="año" name="año">
+              <option>2020</option>
+              <option>2019</option>
+              <option>2018</option>
+              <option>2017</option>
+              <option>2016</option>
+              <option>2015</option>
+              <option>2014</option>
+              <option>2013</option>
+              <option>2012</option>
+              <option>2011</option>
+              <option>2010</option>
+              <option>2009</option>
+              <option>2008</option>
+              <option>2007</option>
+              <option>2006</option>
+              <option>2005</option>
+            </select>
+            </p>
+            <p>
+            <label for="institucion">Institucion:</label>
+            <br>
+            <input type="text" name="institucion" placeholder="Institucion de estudios" id="institucion" required>
+            </p>
+            <p>
+            <label for="lugar">Lugar:</label>
+            <br>
+            <textarea name="lugar" rows="1" cols="40" placeholder="Lugar de estudios" id="lugar" required></textarea>
+            </p>
+            <p>
+            <label for="comentario">Comentarios:</label>
+            <br>
+            <textarea name="comentario" rows="8" cols="40" placeholder="Aqui su comentario" id="comentario"></textarea>
+            </p>
+            <p>
+            <label for="certifico">Certifico que la informacion es real</label>
+            <br>
+            <input type="checkbox" name="certifico" id="certifico" required>
+            </p>
+            <p>
+            <input type="submit" value="Enviar" id="enviar">
+            </p>
+          </fieldset>
+        </form>
+      </article>
+    </section>
+    <footer>
+      <br>
+      <svg width="50px" height="50px" viewBox="0 0 50 50">
+        <image xlink:href="../img/logo4.svg" width="50px" height="50px"></image>
+      </svg>
+      <h2>Contacto:</h2>
+      <strong>Email:</strong> jorgecardvi@gmail.com | +593995857381 | Sauces E12661, Quito-Ecuador <br>
+      <em>Nota: Las tildes fueron omitidas para facilidad de escritura</em>
+    </footer>
+  </body>
+</html>
